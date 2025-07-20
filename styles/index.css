@@ -1,0 +1,27 @@
+
+.poppins-regular {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+/* header styles */
+header{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.head-title{
+    margin-left: 6.25rem;
+}
+
+.option{
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+    margin-right: 6.25rem;
+}
+
+/* shared styles */
