@@ -53,6 +53,18 @@
     padding: 10px 24px;
     border-radius: 40px;
 }
+/* main styles */
+.card{
+    margin-top: 6rem;
+    margin-left: 10rem;
+    margin-right: 10rem;
+}
+.card-item{
+    display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 3.75rem;
+}
+
 
 /* shared styles */
 /* dark-01 */
@@ -96,8 +108,12 @@
 .main-camera img{
     width: 11.8rem;
     height: 11.8rem;
-    margin: 0 auto;
+   
     
+   }
+
+   .card-item{
+    grid-template-columns: repeat(4, 1fr);
    }
    
 
