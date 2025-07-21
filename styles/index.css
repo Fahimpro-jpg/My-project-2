@@ -56,8 +56,13 @@
 
 /* shared styles */
 /* dark-01 */
+.font-size{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
 .text-color{
     color: #3A3A3A;
+
 }
 .cart-item{
     font-size: 16px;
@@ -73,6 +78,11 @@
 
     .option{
         flex-direction: column;
+    }
+
+    .font-size{
+        font-size: 1rem;
+        font-weight: bold;
     }
 
    .head-container{
