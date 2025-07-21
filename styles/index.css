@@ -71,6 +71,10 @@
         flex-direction: column;
     }
 
+    .option{
+        flex-direction: column;
+    }
+
    .head-container{
     flex-direction: column-reverse;
     justify-content: center;
