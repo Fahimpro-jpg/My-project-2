@@ -7,21 +7,24 @@
 
 
 /* header styles */
+.main-margin{
+    margin-top: 5rem;
+    margin-left: 7rem;
+    margin-right: 7rem;
+}
+
 .first-container{
     display: flex;
     justify-content: space-between;
-    margin-top: 40px;
+    
 }
 
-.head-title{
-    margin-left: 6.25rem;
-}
 
 .option{
     display: flex;
     justify-content: space-between;
     gap: 2rem;
-    margin-right: 6.25rem;
+   
 }
 
 
@@ -33,13 +36,7 @@
     margin-top: 50px;
 }
 
-.main-title{
-    margin-left: 6.25rem;
-}
-.main-camera{
-    margin-right: 9.30rem;
-   
-}
+
 .main-camera img{
      width: 25rem;
     height: 25rem;
@@ -86,15 +83,9 @@
     width: 11.8rem;
     height: 11.8rem;
     margin: 0 auto;
-    border: 2px solid tomato;
+    
    }
-   .main-camera{
-    margin-right: 5px;
-   }
-
-   .main-title{
-    margin-left: 65px;
-   }
+   
 
    }
    
