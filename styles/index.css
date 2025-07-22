@@ -89,7 +89,7 @@
 
 .product-container{
     max-width: 1040px;
-    border: 2px solid tomato;
+    
     margin: 0 auto;
 }
 .collection-title{
@@ -112,6 +112,30 @@
     font-weight: 800;
     text-align: right;
    color: #E02C6D;
+}
+
+
+.featured-title{
+    max-width: 1100px;
+    margin: 0 auto;
+   
+}
+
+.featured-section{
+    display: flex;
+   justify-content: space-between;
+   margin-top: 100px;
+}
+
+.btn-primary-2{
+    background-color: #E02C6D;
+    color: white;
+    padding: 10px 24px;
+}
+
+#last-title{
+    font-size: 38px;
+    font-weight: 800;
 }
 
 
