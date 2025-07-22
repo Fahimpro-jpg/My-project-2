@@ -161,7 +161,7 @@
 
 .display-icons{
     display: flex;
-    justify-content: space-evenly;
+  justify-content: space-around;
     align-items: center;
 }
 
@@ -208,6 +208,12 @@
     justify-content: center;
     align-items: center;
    }
+
+   .featured-section{
+    flex-direction: column-reverse;
+    justify-content: center;
+   }
+
 
    }
 
