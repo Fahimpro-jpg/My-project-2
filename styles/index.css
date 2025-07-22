@@ -85,6 +85,16 @@
     font-weight: 600;
 }
 
+.tex-center{
+    text-align: center;
+}
+
+.new-style{
+    color: #D9DBE1;
+    font-size: 14px;
+    font-weight: 500;
+}
+
 /* Product styles */
 
 .product-container{
@@ -137,7 +147,23 @@
     font-size: 38px;
     font-weight: 800;
 }
+/* footer styles */
+.full-background{
+    max-width: 100%;
+    margin-top: 100px;
+    background-color: darkblue;
+}
 
+.footer-section{
+    text-align: center;
+    color: white;
+}
+
+.display-icons{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
 
 /* responsive design for smaller device */
 @media screen and (max-width:576px) {
