@@ -161,8 +161,11 @@
 
 .display-icons{
     display: flex;
-  justify-content: space-around;
-    align-items: center;
+ justify-content: center;
+ align-items: center;
+ gap: 20px;
+   
+  
 }
 
 /* responsive design for smaller device */
